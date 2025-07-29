@@ -1,0 +1,109 @@
+.container{
+  display: grid;
+  height: 75vh;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: 30% 70%;
+}
+.hero-text{
+  .kaisei-tokumin-regular {
+  font-family: "Kaisei Tokumin", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+  padding-left: 5rem;
+  grid-row-start: 1;
+  grid-row-end: -1;
+}
+
+.profile{
+   grid-row-start: 1;
+   grid-row-end: -1;
+  grid-column-start: 2;
+}
+.profile-pic{
+  border-radius: 50%;
+  height: 225px;
+}
+.flex-container-2{
+  display: flex;
+  height: 100%;
+  align-items:center;
+  justify-content: center;
+  text-align: center;
+  
+}
+.flex-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+.h1{
+  font-size: 2rem;
+}
+.h2{
+  font-size: medium;
+}
+.gradient-background {
+  background: linear-gradient(300deg, #8adaf5, #bf9ee7, #f2b0a8);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+  
+  .section-layout{
+    margin: 5rem;
+    margin-top: 3rem;
+
+  }
+  .container-sections{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+  }
+  .header{
+    
+
+    grid-column-start: 1;
+    grid-column-end: -1;
+    text-align: center;
+    font-size: large;
+  }
+  .item-1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    padding: 2rem;
+  }
+  .item-2{
+    grid-column-start: 2;
+    grid-column-end: -1;
+    padding: 2rem;
+  }
+  .sections-img{
+    border-radius: 5%;
+  }
+  .snip{
+    border: 1px solid rgb(232, 229, 229);
+  }
+  a {
+    text-decoration: none;
+    color: black;
+}
+.playwrite-au-qld {
+  font-family: "Playwrite AU QLD", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: italic;
+}
